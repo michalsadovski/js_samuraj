@@ -1,0 +1,19 @@
+body {
+  font-size: 26px;
+}
+
+button {
+
+  margin: 5px auto 5px;
+  background-color: white;
+  border-radius: 3%;
+  border: 2px solid cadetblue;
+  padding: 20px 30px;
+  font-size: 20px;
+}
+
+div {
+  margin: 10px;
+  font-size: 22px;
+}
+

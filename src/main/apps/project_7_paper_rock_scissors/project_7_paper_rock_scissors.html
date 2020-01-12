@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="project_7_paper_rock_scissors.css">
+<title>Javascript Exercises</title>
+</head>
+<body>
+<h1>PAPER ROCK SCISSORS GAME !</h1>
+
+
+<div class="select">
+<h3>Click your choice:</h3>
+  <input id="button" type="submit" name="button" value="enter"/>
+  <input type="image" class="paper" value="false" src="/kurs-javascript-samuraj/src/main/apps/project_7_paper_rock_scissors/images/paper.jpg" title="Paper">
+  <input type="image" class="rock" src="/kurs-javascript-samuraj/src/main/apps/project_7_paper_rock_scissors/images/rock.jpg" title="Rock">
+  <input type="image" class="scissors" src="/kurs-javascript-samuraj/src/main/apps/project_7_paper_rock_scissors/images/scissors.jpg" title="scissors">
+</div>
+
+<button class="play_button">CHECK PC CHOICE !</button>
+
+<table border="0">
+<tr>
+<td width=300>
+
+<div class="panel-left">
+<h3>RESULT OF THIS GAME:</h3>
+<p>Your choice: <span class="your_choice"></span></p>
+<p>PC choice: <span class="pc_choice"></span></p>
+<h2>Winner: <span class="winner"></span></h2>
+
+</div>
+
+
+</td>
+
+<td width=300>
+
+<div class="panel-right">
+<h3>Total results</h3>
+<p class="numbers">total games: <span>0</span></p>
+<p class="wins">won: </p>
+<p class="losses">lost: </p>
+<p class="draws">draw: </p>
+</div>
+
+</td>
+</tr>
+</table>
+
+
+<button onclick="myFunction()">NEXT GAME</button>
+
+<p id="try_it"></p>
+
+<button onclick="theFunction()">Try it</button>
+<div id="myDIV"></div>
+
+<script src="project_7_paper_rock_scissors.js"></script>
+
+</body>
+</html>
+
+

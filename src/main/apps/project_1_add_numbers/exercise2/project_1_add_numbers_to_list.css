@@ -1,0 +1,15 @@
+button {
+  display: block;
+  margin: 10px auto;
+}
+
+li {
+  font-size: 25px;
+
+}
+
+li.big {
+  font-size: 45px;
+  background-color: yellow;
+  color: orange;
+}
